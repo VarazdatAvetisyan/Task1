@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<button onclick="toggleText()">Hello</button>
+
+<script>
+function toggleText() {
+  var button = document.querySelector("button");
+
+  if (button.innerHTML === "Hello") {
+    button.innerHTML = "Goodbye";
+  } else {
+    button.innerHTML = "Hello";
+  }
+}
+</script>
+
+</body>
+</html>
